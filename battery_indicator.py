@@ -1,4 +1,4 @@
-import win10toast;import time;import psutil;import pkg_resources.py2_warn
+import win10toast;import psutil;import pkg_resources.py2_warn
 def update():
     global battery;global plugins;global battery_percentage
     battery=psutil.sensors_battery();plugins=battery.power_plugged;battery_percentage=str(battery.percent)
